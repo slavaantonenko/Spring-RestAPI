@@ -1,0 +1,37 @@
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2021-01-12 20:48:37,153 INFO  [main] MainApplication: Starting MainApplication on Slavas-MBP.lan with PID 94345 (/Users/slavaantonenko/IdeaProjects/OutbrainTask/target/classes started by slavaantonenko in /Users/slavaantonenko/IdeaProjects/OutbrainTask)
+2021-01-12 20:48:37,167 INFO  [main] MainApplication: No active profile set, falling back to default profiles: default
+2021-01-12 20:48:38,101 INFO  [main] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-12 20:48:38,167 INFO  [main] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 57ms. Found 3 JPA repository interfaces.
+2021-01-12 20:48:38,860 INFO  [main] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2021-01-12 20:48:38,873 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-12 20:48:38,874 INFO  [main] StandardService: Starting service [Tomcat]
+2021-01-12 20:48:38,874 INFO  [main] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-12 20:48:39,023 INFO  [main] [/]: Initializing Spring embedded WebApplicationContext
+2021-01-12 20:48:39,023 INFO  [main] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1758 ms
+2021-01-12 20:48:39,299 INFO  [main] ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:48:39,317 INFO  [main] HikariDataSource: HikariPool-1 - Starting...
+2021-01-12 20:48:40,319 INFO  [main] HikariDataSource: HikariPool-1 - Start completed.
+2021-01-12 20:48:40,459 INFO  [task-1] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-12 20:48:40,709 INFO  [task-1] Version: HHH000412: Hibernate ORM core version 5.4.20.Final
+2021-01-12 20:48:40,773 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-12 20:48:41,284 INFO  [task-1] Version: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-12 20:48:41,382 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2021-01-12 20:48:41,442 INFO  [main] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-12 20:48:41,445 INFO  [main] DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2021-01-12 20:48:41,464 INFO  [task-1] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-12 20:48:42,322 INFO  [task-1] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-12 20:48:42,338 INFO  [task-1] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-12 20:48:42,850 INFO  [main] DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2021-01-12 20:48:42,861 INFO  [main] MainApplication: Started MainApplication in 6.401 seconds (JVM running for 7.394)
+2021-01-12 20:48:49,848 INFO  [http-nio-8080-exec-1] [/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:48:49,848 INFO  [http-nio-8080-exec-1] DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:48:49,859 INFO  [http-nio-8080-exec-1] DispatcherServlet: Completed initialization in 11 ms
+2021-01-12 20:48:50,194 ERROR [http-nio-8080-exec-1] AssignMachineController: Failed to assign machine to a team because of the following reasons
+1. Team's quota reached full capacity
+2. The machine is already assigned to this team
+2021-01-12 20:48:57,516 INFO  [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-12 20:48:57,518 INFO  [SpringContextShutdownHook] ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:48:57,519 INFO  [SpringContextShutdownHook] HikariDataSource: HikariPool-1 - Shutdown initiated...
+2021-01-12 20:48:57,529 INFO  [SpringContextShutdownHook] HikariDataSource: HikariPool-1 - Shutdown completed.

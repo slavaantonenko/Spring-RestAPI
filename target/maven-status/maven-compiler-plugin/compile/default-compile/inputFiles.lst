@@ -1,0 +1,12 @@
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/rest/controller/AssignMachineController.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/repository/TeamRepository.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/model/Team.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/model/AssignedMachine.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/Constants.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/rest/controller/MachineController.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/repository/AssignedMachinesRepository.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/repository/MachineRepository.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/model/Machine.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/rest/controller/TeamController.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/MainApplication.java
+/Users/slavaantonenko/IdeaProjects/OutbrainTask/src/main/java/slava/antonenko/rest/controller/MainController.java
